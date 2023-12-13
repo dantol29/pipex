@@ -1,3 +1,4 @@
+# Simulating the pipe "|" operator in C
 ## Functions used
 ```
 int access(const char *pathname, int mode);
