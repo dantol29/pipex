@@ -6,7 +6,7 @@
 /*   By: dtolmaco <dtolmaco@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/14 14:32:48 by dtolmaco          #+#    #+#             */
-/*   Updated: 2023/12/14 14:33:24 by dtolmaco         ###   ########.fr       */
+/*   Updated: 2023/12/14 15:30:14 by dtolmaco         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 # include <stdio.h>
 # include <stdlib.h>
 # include <sys/wait.h>
-# include "libft/libft.h"
+# include "../libft/libft.h"
 
 typedef struct s_pipex
 {

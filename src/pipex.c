@@ -6,11 +6,11 @@
 /*   By: dtolmaco <dtolmaco@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/12 13:05:19 by dtolmaco          #+#    #+#             */
-/*   Updated: 2023/12/14 14:31:04 by dtolmaco         ###   ########.fr       */
+/*   Updated: 2023/12/14 15:29:28 by dtolmaco         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "pipex.h"
+#include "../header/pipex.h"
 
 void	first_child(t_pipex pipex, char **argv, char **envp)
 {

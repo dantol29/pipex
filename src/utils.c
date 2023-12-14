@@ -6,11 +6,11 @@
 /*   By: dtolmaco <dtolmaco@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/13 19:03:52 by dtolmaco          #+#    #+#             */
-/*   Updated: 2023/12/14 15:00:40 by dtolmaco         ###   ########.fr       */
+/*   Updated: 2023/12/14 15:29:44 by dtolmaco         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "pipex.h"
+#include "../header/pipex.h"
 
 void	ft_putstr(char *str)
 {
