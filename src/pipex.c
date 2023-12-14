@@ -6,7 +6,7 @@
 /*   By: dtolmaco <dtolmaco@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/12 13:05:19 by dtolmaco          #+#    #+#             */
-/*   Updated: 2023/12/14 15:29:28 by dtolmaco         ###   ########.fr       */
+/*   Updated: 2023/12/14 17:00:57 by dtolmaco         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,5 +56,6 @@ int	main(int argc, char **argv, char **envp)
 	close(pipex.tube[1]);
 	close(pipex.tube[0]);
 	waitpid(pipex.pid1, NULL, 0);
+	free_all(pipex);
 	return (0);
 }
