@@ -1,4 +1,5 @@
 # Simulating the pipe "|" operator in C
+![Screenshot](pipex_document.png)
 ## Functions used
 ```
 int access(const char *pathname, int mode);
